@@ -1,0 +1,9 @@
+@media only screen and (max-width: 600px) {
+  video{
+    display: none;
+  }
+
+  main{
+    background-image: url('./images/bgimage.jpg');
+  }
+}
