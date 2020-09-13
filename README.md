@@ -1,68 +1,26 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## This is the frontend repository of the project
 
-## Available Scripts
+### The Process
+The homepage of the application shows the ad of Hotstar for IPL 2020 to connect with the IPL 2020 theme (COVID-19). After you scroll down you'll see 2 column layout (which collapses to one column in smaller devices) in which one column has MS Dhoni picture and another column having some fun facts about IPL and 2 links to navigate to stats page and trivia page. At bottom, there's a footer containing sponsors of IPL 2020 which is also responsive.
 
-In the project directory, you can run:
+The stats page requests the backend using Fetch API to fetch data to plot into a graph and table.
 
-### `npm start`
+The trivia page requests the backend and renders all the fun facts about IPL
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+#### Libraries used
+- [React JS](https://create-react-app.dev/docs/getting-started/)
+- [react-router-dom](https://www.npmjs.com/package/react-router-dom)
+- [chart.js](https://www.npmjs.com/package/chart.js)
+- [Pure CSS](https://purecss.io/)
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+#### React JS
+Used to bind the whole application and data flow
 
-### `npm test`
+#### react-router-dom
+react-router-dom was used to create client side routing
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### chart.js
+chart.js was used to plot graph (line and bar) in the application
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+#### Pure CSS
+The table used to visualize data was used styled using Pure CSS
