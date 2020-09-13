@@ -1,6 +1,8 @@
 ## This is the frontend repository of the project
 
 ### The Process
+Whole application is deployed on Heroku, to deploy on Heroku first I created the production build (to load faster) of my frontend and copying the production build to my backend and serving the files from there (using static() middleware in express).
+
 The homepage of the application shows the ad of Hotstar for IPL 2020 to connect with the IPL 2020 theme (COVID-19). After you scroll down you'll see 2 column layout (which collapses to one column in smaller devices) in which one column has MS Dhoni picture and another column having some fun facts about IPL and 2 links to navigate to stats page and trivia page. At bottom, there's a footer containing sponsors of IPL 2020 which is also responsive.
 
 The stats page requests the backend using Fetch API to fetch data to plot into a graph and table.
@@ -24,3 +26,5 @@ chart.js was used to plot graph (line and bar) in the application
 
 #### Pure CSS
 The table used to visualize data was used styled using Pure CSS
+
+#### Backend Repo ➡️ https://github.com/JayC561/Backend
